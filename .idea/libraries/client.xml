@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="client">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/client/keycloak-admin-cli-18.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/client/keycloak-client-registration-cli-18.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

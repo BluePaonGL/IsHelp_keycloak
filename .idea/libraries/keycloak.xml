@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="keycloak">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/app/keycloak.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
