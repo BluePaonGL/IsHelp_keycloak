@@ -16,4 +16,4 @@ To get started, check out the [configuration guides](https://www.keycloak.org/gu
 Docker
 ======
 
-docker container run --name keycloak	 -p 8080:8080 -eKEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin ghcr.io/bluepaongl/keycloak	
+docker container run --name keycloak -p 8080:8080 -eKEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin ghcr.io/bluepaongl/keycloak	

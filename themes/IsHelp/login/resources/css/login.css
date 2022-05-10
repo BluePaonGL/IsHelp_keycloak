@@ -223,16 +223,28 @@ a#kc-current-locale-link::after {
     color: #029EFF;
 }
 
-#kc-logo {
+#kc-logo-container{
+    height: 150px;
+    display: flex;
     width: 100%;
+    justify-content: center;
+}
+
+#kc-logo-container div {
+    height: 150px;
+    width: 150px;
+    background-image: url(../img/keycloak-logo.png);
+    background-size: 150px;
+    background-repeat: no-repeat;
 }
 
 div.kc-logo-text {
     background-image: url(../img/keycloak-logo-text.png);
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 63px;
+    height: 100px;
     width: 300px;
-    margin: 0 auto;
+    margin: -40px -20px;
 }
 
 div.kc-logo-text span {
@@ -266,13 +278,11 @@ div.kc-logo-text span {
     float:right;
     width:220px;
     font-size: 25px;
-    text-transform: uppercase;
     letter-spacing: 3px;
     line-height: 1.2em;
     padding: 37px 10px 20px 10px;
     white-space: normal;
     margin-right: 20px;
-
 }
 
 #kc-content {
@@ -484,6 +494,12 @@ ul#kc-totp-supported-apps {
     margin-bottom: 10px
 }
 
+#kc-locale {
+    position: relative;
+    text-align: right;
+    z-index: 9999;
+}
+
 .kc-login-tooltip .kc-tooltip-text{
     top:-3px;
     left:160%;
@@ -528,12 +544,6 @@ ul#kc-totp-supported-apps {
 
     .login-pf .container {
         padding-right: 80px;
-    }
-
-    #kc-locale {
-        position: relative;
-        text-align: right;
-        z-index: 9999;
     }
 }
 
@@ -648,11 +658,11 @@ ul#kc-totp-supported-apps {
 }
 
 /*phone*/
-@media (max-width: 767px) {
+@media (max-width: 650px) {
     .login-pf-page .card-pf {
         max-width: none;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
         padding-top: 0;
         border-top: 0;
         box-shadow: 0 0;
@@ -665,6 +675,15 @@ ul#kc-totp-supported-apps {
 
     .kc-social-grid .kc-social-icon-text {
         left: -15px;
+    }
+
+    #kc-header-wrapper-right {
+        font-size: 15px;
+        line-height: 1.2em;
+        padding: 42px 10px 20px 10px;
+        white-space: normal;
+        margin-right: 10px;
+        width: 150px;
     }
 }
 
