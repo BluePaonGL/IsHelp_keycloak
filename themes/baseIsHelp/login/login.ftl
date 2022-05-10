@@ -63,8 +63,8 @@
 
                   <div id="kc-form-buttons" class="${properties.kcFormGroupClass!}">
                       <input type="hidden" id="id-hidden-input" name="credentialId" <#if auth.selectedCredential?has_content>value="${auth.selectedCredential}"</#if>/>
-                      <input tabindex="4" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" style="width:45%; float:left;margin-top: -10px;padding-top: 10px;" name="login" id="kc-login" type="submit" value="${msg("doLogIn")}"/>
-                      <a href="registerURL"> <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" style="background-color:grey; width:45%; float:right;margin-top: -10px;padding-top: 10px;" type="button" value="${msg("doRegister")}"/></a>
+                      <input tabindex="4" class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" style="width:48%; float:left;margin-top: -10px;padding-top: 10px;" name="login" id="kc-login" type="submit" value="${msg("doLogIn")}"/>
+                      <a href="registerURL"> <input class="${properties.kcButtonClass!} ${properties.kcButtonPrimaryClass!} ${properties.kcButtonBlockClass!} ${properties.kcButtonLargeClass!}" style="background-color:grey; width:48%; float:right;margin-top: -10px;padding-top: 10px;" type="button" value="${msg("doRegister")}"/></a>
                   </div>
             </form>
         </#if>

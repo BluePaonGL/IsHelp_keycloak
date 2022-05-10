@@ -39,14 +39,14 @@
 <body class="${properties.kcBodyClass!}">
 <div class="${properties.kcLoginClass!}" style="padding:0 0 0 0;">
     <div id="kc-header" class="${properties.kcHeaderClass!}">
-        <div id="kc-header-wrapper"
-             class="${properties.kcHeaderWrapperClass!}"><a id="isepPortal" href="homeURL">${kcSanitize(msg("loginTitleHtml",(realm.displayNameHtml!'')))?no_esc}</a>
+        <div id="kc-header-wrapper"class="${properties.kcHeaderWrapperClass!}">
+            <a id="isepPortal" href="homeURL"><div class="kc-logo-text"></div></a>
         </div>
         <div id="kc-header-wrapper-right"
              class="${properties.kcHeaderWrapperClass!}"><a id="isepPortal" href="https://portail.isep.fr">${msg("isepPortal")}</a>
         </div>
     </div>
-    <div class="${properties.kcFormCardClass!}" style="padding: 20px 40px 50px 40px">
+    <div class="card-pf-cus">
         <header class="${properties.kcFormHeaderClass!}">
             <#if realm.internationalizationEnabled  && locale.supported?size gt 1>
                 <div class="${properties.kcLocaleMainClass!}" id="kc-locale">
