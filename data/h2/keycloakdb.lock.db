@@ -1,6 +1,0 @@
-#FileLock
-#Tue May 10 02:00:13 CEST 2022
-server=192.168.10.1\:52451
-hostName=Master
-method=file
-id=180ab44194bbe67b1907fe852a95345e107b16b1973
