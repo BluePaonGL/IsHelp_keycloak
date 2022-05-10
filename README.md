@@ -1,18 +1,6 @@
 Keycloak
 ========
 
-To get help configuring Keycloak via the CLI, run:
-
-on Linux/Unix:
-
-    $ bin/kc.sh
-
-on Windows:
-
-    $ bin\kc.bat
-
-To try Keycloak out in development mode, run: 
-
 on Linux/Unix:
 
     $ bin/kc.sh start-dev
@@ -24,3 +12,8 @@ on Windows:
 After the server boots, open http://localhost:8080 in your web browser. The welcome page will indicate that the server is running.
 
 To get started, check out the [configuration guides](https://www.keycloak.org/guides#server).
+
+Docker
+======
+
+docker container run --name keycloak	 -p 8080:8080 -eKEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin ghcr.io/bluepaongl/keycloak	
